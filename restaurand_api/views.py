@@ -1,6 +1,6 @@
+from django.http import HttpResponse
 from django.shortcuts import redirect
-from django.core.urlresolvers import reverse
 
 
 def home(request):
-    return redirect('api/v1')
+    return HttpResponse('go to /api/v1') 
