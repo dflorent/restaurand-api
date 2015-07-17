@@ -2,3 +2,4 @@ venv
 *.pyc
 staticfiles
 restaurand_api/local_settings.py
+.env
